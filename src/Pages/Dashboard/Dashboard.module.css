@@ -1,0 +1,39 @@
+
+.container{
+    width: 100%;
+}
+
+.dashboard{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    
+}
+
+.sidebarComponent{
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    /* border-right: 1px solid lightgray; */
+}
+
+.mainComponent{
+    width: 60%;
+    height: 100%;
+    /* background: lightblue; */
+}
+
+
+@media (min-width: 1000px){
+    .sidebarComponent{
+        width: 30%;
+
+    }
+
+    .mainComponent{
+        width: 70%;
+    }
+}

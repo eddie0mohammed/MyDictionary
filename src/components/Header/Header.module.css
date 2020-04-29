@@ -1,0 +1,32 @@
+
+.container{
+    background: red;
+    width: 100%;
+}
+
+.header{
+    background: red;
+    display: flex;
+    align-items: center;
+    padding:  2rem 3rem;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.logout{
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.logout:hover{
+    color:red;
+    background: white;
+}
