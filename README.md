@@ -1,19 +1,23 @@
+MyDictionary
 
-A live version of the application can be found at:
-https://surglogs-challenge.herokuapp.com/
+Live URL: https://my-dictionary-app-1.herokuapp.com/
 
-# Install dependencies
-npm install
-
-# Serve on localhost:3000
-npm start
-
-# Build for production
-npm run build
+A utility app to help learn different languages. The app makes use of google translate api to translate words or sentences to the selected language. The app also uses Text-to-Speech api from the Google Cloud Platform to output the translated word as sound. Built with React, Redux and apis from Google Cloud Platform
 
 
-NOTE: The project requires an API key for both the Google Translate API and the Text to Speech Api.
+Built with: 
+- React
+- Redux 
+- Css Modules
+- Google translate api
+- Google text-to-speech api
+- Jest
+- Enzyme
 
-The api key should be saved in a '.env' file under the name:
-"REACT_APP_API_KEY".
 
+#Setup
+
+- npm install
+- npm start
+- requires an api key from google cloud platform. 
+- save the api key in ".env" file under the name REACT_APP_API_KEY
